@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6cb37575c0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="image/tpi.jpeg">
+    <title>Thakurgaon Polytechnic Institute</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="notise.html">NOTISE!</a></li>
+                    <li><a href="course.html">TECNOLOGY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contect.html">CONTECT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Teacher's List</h1> 
+    </section>
+
+    <!----------teacher list---------->
+    <section class="testimmonials">
+        <h1>Our Institute Teacher's List</h1>
+        <p>Teachers are passionate people who enjoy making a difference.</p>
+        <!------image menu------->
+        <ul>
+            <li><a href="acadomic.html">একাডেমিক ও প্রশাসনিক কাউন্সিল এর সদস্যবৃন্দ</a></li>
+        </ul>
+        <h3> # টেকনোলজি ভিত্তিক শিক্ষক ও কর্মচারী পরিচিতি</h3>
+        <ul>
+            <li><a href="computer-scince.html">কম্পিউটার সাইন্স এন্ড টেকনোলজি</a></li>
+            <li><a href="food-tecnology.html">ফুড টেকনোলজি</a></li>
+            <li><a href="rse-tecnology.html">রেফ্রিজারেশন এন্ড এয়ারকন্ডিশনিং টেকনোলজি</a></li>
+            <li><a href="aidt-tecnology.html">আর্কিটেকচার টেকনোলজি</a></li>
+            <li><a href="robot-tecnology.html">মেকাট্রনিক্স টেকনোলজি</a></li>
+            <li><a href="nonteck-tecnology.html">নন-টেক বিভাগ শিক্ষক ও কর্মচারী পরিচিতি</a></li>
+        </ul>
+        <h3>**************** </h3>
+        <ul>
+            <li><a href="hisab.html">সাধারণ ও হিসাব শাখা কর্মচারী পরিচিতি</a></li>
+            <li><a href="acadomik-saka.html">একাডেমিক শাখার পরিচিতি</a></li>
+            <li><a href="exam-control.html">পরীক্ষা নিয়ন্ত্রণ কক্ষের সদস্যবৃন্দ</a></li>
+            <li><a href="niraportta.html">নিরাপত্তা শাখার পরিচিতি</a></li>
+            <li><a href="mosjid.html">মসজিদের দায়িত্ব প্রাপ্তদের পরিচিতি</a></li>
+            <li><a href="prokasona.html">প্রকাশনা কমিটির পরিচিতি</a></li>
+        </ul>
+    </section>
+   
+
+    <!--------Footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Contuct us to  open the Facebook,Twitter,Instragram or Linkedin </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/TPIBD/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/company/thakurgaon-polytechnic-institute"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p><i class="fa-solid fa-heart "></i> This Page Make Nobodip Debnath <i class="fa-solid fa-heart "></i></p>
+    </section>
+    <!---------Java Script---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    <!-------image menu------->
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+</body>
+</html>

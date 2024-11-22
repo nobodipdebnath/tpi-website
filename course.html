@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6cb37575c0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="image/tpi.jpeg">
+    <title>Thakurgaon Polytechnic Institute</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="notise.html">NOTISE!</a></li>
+                    <li><a href="course.html">TECNOLOGY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contect.html">CONTECT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Our Techonology</h1> 
+    </section>
+    <!--------Course--------->
+    <section class="course">
+        <h1>Technology</h1>
+        <p>See our all techonology</p>
+        <div class="row">
+            <div class="course-col">
+                <a href="computer.html" class="link"><h3>Computer Technology</h3></a>
+                <a href="computer.html" class="link-text"><p>Computer science is the study of computer hardware and software. Those who study computer science, consequently, can specialize in a wide range of interrelated subfields, from artificial intelligence and cryptography to computer engineering and software development.</p></a>
+            </div>
+            <div class="course-col">
+                <a href="food.html" class="link"><h3>Food Technology</h3></a>
+                <a href="food.html" class="link-text"><p>Foodtech or food technology is the usage of cutting-edge technologies to develop, manufacture, and distribute food products</p></a>
+            </div>
+            <div class="course-col">
+                <a href="mechatronics.html" class="link"><h3>Mechatronics Technology</h3></a>
+                <a href="mechatronics.html" class="link-text"><p>Mechatronics is an interdisciplinary field that combines elements of engineering, machining, information technology, robotics, and electronics. It synergizes these diverse fields for the purpose of designing and field testing new and more efficient machine solutions to keep production lines and manufacturing floors working more smoothly.</p></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <a href="refrigeration.html" class="link"><h3>Refrigaration and Airconditioning Technology</h3></a>
+                <a href="refrigeration.html" class="link-text"><p>Refrigeration, the process of removing heat from an enclosed space or from a substance for the purpose of lowering its temperature. In the industrialized nations and affluent regions of the developing world, refrigeration is chiefly used to store foodstuffs at low temperatures.</p></a>
+            </div>
+            <div class="course-col">
+                <img src="image/banner.jpg" height="250px" width="350px" onclick="openFullImg(this.src)">
+            </div>
+            <div class="course-col">
+                <a href="architectural.html" class="link"><h3>Architechture and Interior Design Technology</h3></a>
+                <a href="architectural.html" class="link-text"><p>Architecture and technology have always had a tenuous relationship. Architecture and design are applied sciences that use technological research and development to propel their work to new heights, presenting buildings and products that are more interesting, responsible, and useful.</p></a>
+            </div>
+        </div>
+    </section>
+    <!--------Facilities------------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>These amenities play a crucial role in shaping students’ experiences during their academic journey.</p>
+        <!------image menu-------->
+        <div class="full-img" id="fullImgBox">
+            <img src="image/img1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</i></span>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/rover.jpg" onclick="openFullImg(this.src)">
+                <h3>Rover Scout</h3>
+                <p>In Bangladesh scouting started formally in 1972 (though scouting has been active in this region since 1947). Bangladesh Scouts got the recognition as the 105th member of WOSM in 1974..</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/play.jpg" onclick="openFullImg(this.src)">
+                <h3>Largest Play Ground</h3>
+                <p>A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/test.jpg" height="275px" onclick="openFullImg(this.src)">
+                <h3>Group study & Class Test</h3>
+                <p>Group study allows individuals to learn from each other’s strengths and weaknesses, but it can also lead to distractions and conflicts if not organized properly.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------Footer--------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Contuct us to  open the Facebook,Twitter,Instragram or Linkedin </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/TPIBD/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/company/thakurgaon-polytechnic-institute"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p><i class="fa-solid fa-heart "></i> This Page Make Nobodip Debnath <i class="fa-solid fa-heart "></i></p>
+    </section>
+    <!---------Java Script---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6cb37575c0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Thakurgoun Polytechnic Institute</title>
+    <link rel="icon" href="image/tpi.png">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="notise.html">NOTICE!</a></li>
+                    <li><a href="course.html">TECHNOLOGY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contect.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Thakurgoun Polytacnic Institute</h1>
+            <p>We offer 5 modern technologies, such as Architecture and Interior Design Technology, Computer Technology, Food Technology, <br>
+                 Refrigaration and Air-conditioning Technology and Mechatronics Technology.</p>
+            <a href="visit us.html" class="hero-btn">Visit Us To Know More</a>
+        </div> 
+    </section>
+    <!------------Course------------>
+    <section class="course">
+        <h1>Technology</h1>
+        <p>See our all technology</p>
+        <div class="row">
+            <div class="course-col">
+                <a href="computer.html" class="link"><h3>Computer Technology</h3></a>
+                <a href="computer.html" class="link-text"><p>Computer science is the study of computer hardware and software. Those who study computer science,
+                     consequently, can specialize in a wide range of interrelated subfields, from artificial intelligence and cryptography to computer engineering 
+                     and software development.</p></a>
+            </div>
+            <div class="course-col">
+                <a href="food.html" class="link"><h3>Food Technology</h3></a>
+                <a href="food.html" class="link-text"><p>Food tech or food technology is the usage of cutting-edge technologies to develop, manufacture, and distribute
+                     food products</p></a>
+            </div>
+            <div class="course-col">
+                <a href="mechatronics.html" class="link"><h3>Mechatronics Technology</h3></a>
+                <a href="mechatronics.html" class="link-text"><p>Mechatronics is an interdisciplinary field that combines elements of engineering, machining,
+                     information technology, robotics, and electronics. It synergizes these diverse fields for the purpose of designing and field testing new
+                      and more efficient machine solutions to keep production lines and manufacturing floors working more smoothly.</p></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <a href="refrigeration.html" class="link"><h3>Refrigaration and Airconditioning Technology</h3></a>
+                <a href="refrigeration.html" class="link-text"><p>Refrigeration, the process of removing heat from an enclosed space or from a substance 
+                    for the purpose of lowering its temperature. In the industrialized nations and affluent regions of the developing world, refrigeration is
+                     chiefly used to store foodstuffs at low temperatures.</p></a>
+            </div>
+            <div class="course-col">
+                <img class="col" src="image/banner.jpg" height="250px" width="350px" onclick="openFullImg(this.src)">
+            </div>
+            <div class="course-col">
+                <a href="architectural.html" class="link"><h3>Architechture and Interior Design Technology</h3></a>
+                <a href="architectural.html" class="link-text"><p>Architecture and technology have always had a tenuous relationship. Architecture and design are
+                     applied sciences that use technological research and development to propel their work to new heights, presenting buildings and products that 
+                     are more interesting, responsible, and useful.</p></a>
+            </div>
+        </div>
+    </section>
+    <!--Campus-->
+    <section class="campus">
+        <h1>Our Collage Campus </h1>
+        <p> A campus is traditionally the land on which a college or university and related institutional buildings are situated. It encompasses various facilities
+             and <br> spaces that contribute to the vibrant life of students and faculty.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/cam-1.jpg" onclick="openFullImg(this.src)" height="505px">
+            </div>
+            <div class="campus-col">
+                <img src="image/cam-2.jpg" onclick="openFullImg(this.src)" height="505px">
+            </div>
+            <div class="campus-col">
+                <img src="image/cam-3.jpg" onclick="openFullImg(this.src)" height="505px">
+            </div>
+        </div>
+    </section>
+    <!----------Facilities---------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>These amenities play a crucial role in shaping students’ experiences during their academic journey.</p>
+    <!---------image menu------------>
+        <div class="full-img" id="fullImgBox">
+            <img src="image/img1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</i></span>
+        </div>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/rover.jpg" onclick="openFullImg(this.src)">
+                <h3>Rover Scout</h3>
+                <p>In Bangladesh scouting started formally in 1972 (though scouting has been active in this region since 1947). Bangladesh Scouts got the
+                     recognition as the 105th member of science in 1974..</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/play.jpg" onclick="openFullImg(this.src)">
+                <h3>Largest Play Ground</h3>
+                <p>A playground, play park, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="image/test.jpg" height="275px" onclick="openFullImg(this.src)">
+                <h3>Group study & Class Test</h3>
+                <p>Group study allows individuals to learn from each other’s strengths and weaknesses, but it can also lead to distractions and conflicts if 
+                    not organized properly.</p>
+            </div>
+        </div>
+    </section>
+    <!--------testimoniyal------------>
+
+    <section class="testimmonials">
+        <h1>What Our Student Says</h1>
+        <p>Students can be either full-time or part-time, depending on their enrollment status.</p>
+        <div class="row">
+            <div class="testimmonials-col">
+                <img src="image/lipi.jpg" onclick="openFullImg(this.src)">
+                <div>
+                    <p>You're an awesome student. Every day, you put a smile on my face with your positive attitude. Keep up the good work.</p>
+                    <h1>Lipi Roy</h1>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="testimmonials-col">
+                <img src="image/profile-pic.png" onclick="openFullImg(this.src)">
+                <div>
+                    <p>You've been an ideal student. Your desire to learn and grow means a lot to me as a teacher. I'm very glad to have you in my class.</p>
+                    <h1>Nobodip Debnath</h1>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------Call To Action---------->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Course <br> Anywhere From The World</h1>
+        <a href="contect.html" class="hero-btn">CONTACT US</a>
+    </section>
+     <!--------Footer---------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Contact us to  open the Facebook,Twitter,Instagram or Linkedin </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/TPIBD/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/company/thakurgaon-polytechnic-institute"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+       <p><i class="fa-solid fa-heart "></i> Developer  <a target="_blank" href="https://www.facebook.com" class="developer">Nobodip Debnath</a> <i class="fa-solid fa-heart "></i></p>
+    </section>
+    <!---------Java Script---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+</script>
+</body>
+</html>
