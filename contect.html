@@ -87,10 +87,11 @@
                 </div>
             </div>
             <div class="contact-col">
-                <form action="form-hendler.php" method="post">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="1d1041f6-669b-4196-a44e-8986afc37fe1">
                     <input type="text" name="name" placeholder="Enter your name" required>
                     <input type="email" name="email" placeholder="Enter email address" required>
-                    <input type="text" name="Subject" placeholder="Enter your subject" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
                     <textarea rows="8" name="message" placeholder="Message" required></textarea>
                     <button type="submit" class="hero-btn red-btn">Send Message</button>
                 </form>
