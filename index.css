@@ -609,3 +609,11 @@ ol li {
   width: 350px;
   height: 250px;
 }
+.testimmonials-col img:hover{
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.facilities-col img:hover{
+  transition: 0.3s;
+  transform: scale(1.1);
+}
