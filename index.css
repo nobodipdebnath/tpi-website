@@ -264,6 +264,18 @@ h3 {
   cursor: pointer;
   display: flex;
 }
+.testimmonials .row{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.testimmonials-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .testimmonials-col h1 {
   font-size: 35px;
 }
