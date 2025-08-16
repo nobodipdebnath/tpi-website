@@ -599,12 +599,6 @@ ol li {
 .ul {
   margin-left: 40px;
 }
-.developer{
-    text-decoration: none;
-}
-.developer:hover{
-    text-decoration: underline;
-}
 .project {
   width: 350px;
   height: 250px;
