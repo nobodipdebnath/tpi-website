@@ -184,6 +184,9 @@ h3 {
   .row {
     flex-direction: column;
   }
+  .course-col img{
+    width: 220px;
+  }
 }
 
 /* --------Campus------------- */
@@ -264,13 +267,13 @@ h3 {
   cursor: pointer;
   display: flex;
 }
-.testimmonials .row{
+/* .testimmonials .row{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   justify-content: center;
   align-items: center;
-}
+} */
 .testimmonials-3{
   display: flex;
   justify-content: center;
